@@ -3,27 +3,27 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 # import matplotlib.pyplot as plt
-import seaborn as sns
-import warnings
-import plotly.express as px
-warnings.filterwarnings('ignore')
+# import seaborn as sns
+# import warnings
+# import plotly.express as px
+# warnings.filterwarnings('ignore')
 
 # Scikit-learn libraries for preprocessing, models, and evaluation
-from sklearn.neighbors import KNeighborsClassifier
-from lightgbm import LGBMClassifier
-from sklearn.svm import SVC
-from xgboost import XGBClassifier
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import recall_score, accuracy_score,precision_score, confusion_matrix,RocCurveDisplay,\
-ConfusionMatrixDisplay, roc_auc_score, classification_report, roc_curve, auc
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler, LabelEncoder, OrdinalEncoder, MinMaxScaler
-from sklearn.linear_model import LinearRegression, LogisticRegression
-from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier, GradientBoostingClassifier, GradientBoostingRegressor
-from sklearn.feature_selection import RFE
+# from sklearn.neighbors import KNeighborsClassifier
+# from lightgbm import LGBMClassifier
+# from sklearn.svm import SVC
+# from xgboost import XGBClassifier
+# from sklearn.naive_bayes import MultinomialNB
+# from sklearn.metrics import recall_score, accuracy_score,precision_score, confusion_matrix,RocCurveDisplay,\
+# ConfusionMatrixDisplay, roc_auc_score, classification_report, roc_curve, auc
+# from sklearn.model_selection import train_test_split
+# from sklearn.preprocessing import StandardScaler, LabelEncoder, OrdinalEncoder, MinMaxScaler
+# from sklearn.linear_model import LinearRegression, LogisticRegression
+# from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier, GradientBoostingClassifier, GradientBoostingRegressor
+# from sklearn.feature_selection import RFE
 
-from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
-from sklearn.metrics import mean_squared_error, accuracy_score, classification_report
+# from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
+# from sklearn.metrics import mean_squared_error, accuracy_score, classification_report
 
 pd.set_option('display.max_columns', None)
 
