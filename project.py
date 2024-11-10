@@ -72,6 +72,13 @@ with analysis:
     
     st.scatter_chart(hemo_levels)
 
+    # creating an histogram chart
+    fig, ax = plt.subplots()
+    ax.hist(age_counts, bins=20, color='blue', edgecolor='black')
+    # ax.xlabel('x-axis label')
+    # ax.ylabel('y-axis label')
+    st.pyplot(fig)
+
 
 with predictive_model:
     st.title ("Predictive Modeling")
