@@ -111,7 +111,7 @@ with predictive_model:
             numerical_columns.append(col)
 
     data_tab2.drop('id', axis=1, inplace=True)
-    train, test = train_test_split(df, test_size=0.3, random_state=42)
+    train, test == train_test_split(df, test_size=0.3, random_state=42)
     train.reset_index(drop=True, inplace=True)
     test.reset_index(drop=True, inplace=True)
 
